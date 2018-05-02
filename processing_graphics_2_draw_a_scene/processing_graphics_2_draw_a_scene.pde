@@ -12,7 +12,26 @@ void setup() {
 }
 
 void draw() {
-  // Your program will be here...
+  fill(51, 25, 0);
+  rect(0,400,800,200); // Dirt
   
-  // Do not forget comments!
+  
+  stroke(0,0,0);
+  strokeWeight(1);
+  fill(0, 102, 0);
+  rect(245,349,50,50); //Feet
+  
+  stroke(0,0,0);
+  strokeWeight(1);
+  fill(0, 102, 0);
+  rect(325,349,50,50);
+  
+  stroke(0,0,0);
+  strokeWeight(1);
+  fill(0, 102, 0);
+  rect(270,149,80,200); //Body
+  
+  
+  
+  
 }
