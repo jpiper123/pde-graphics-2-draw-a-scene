@@ -53,5 +53,14 @@ void draw() {
   fill(0,0,0);
   rect(323,120,10,30);
   
+  line(246,100,40,100);
+  
+  stroke(0,0,0);
+  strokeWeight(4);
+  fill(255,255,255);
+  ellipse
+  
+  
+  
   
 }
