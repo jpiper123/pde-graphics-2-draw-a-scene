@@ -12,8 +12,10 @@ void setup() {
 }
 
 void draw() {
+  stroke(0,0,0);
+  strokeWeight(2);
   fill(51, 25, 0);
-  rect(0,400,800,200); // Dirt
+  rect(0,401,800,200); // Dirt
   
   
   stroke(0,0,0);
@@ -31,7 +33,16 @@ void draw() {
   fill(0, 102, 0);
   rect(270,149,80,200); //Body
   
+  stroke(0,0,0);
+  strokeWeight(1);
+  fill(0, 102, 0);
+  rect(247,24,125,125); //Head
   
+  fill(0,0,0);
+  rect(270,50,30,30); //Eyes
+  
+  fill(0,0,0);
+  rect(320,50,30,30);
   
   
 }
