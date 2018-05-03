@@ -58,7 +58,13 @@ void draw() {
   stroke(0,0,0);
   strokeWeight(4);
   fill(255,255,255);
-  ellipse
+  ellipse(100,100,150,150); //Text box
+  
+  fill(0,0,0);
+  textSize(14);
+  text("ttsssssssss BOOM!", 35, 100);
+  
+  
   
   
   
